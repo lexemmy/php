@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+</head>
+<body>
+
+<form action="pform.php" method="post">
+	<label>First Name: </label> <input type="text" name="firstname"> <br/><br/>
+	
+	
+	<label>Last Name: </label> <input type="text" name="lastname"> <br/><br/>
+
+	<label>Email: </label> <input type="email" name="email"> <br/><br/>
+
+	<label>Phone number: </label> <input type="number" name="number"> <br/><br/>
+
+	<label>Gender: </label><br/><br/>	<input type="radio" name="gender" value="male"><label>male</label><br/><br/>
+										<input type="radio" name="gender" value="female"><label>female</label><br/><br/>
+										<input type="radio" name="gender" value="others"><label>others</label><br/><br/>
+
+	<label>Track: </label><select name="track">
+		<option value="Frontend">Front End</option>
+		<option value="backend">Back End</option>
+		<option value="Mobile">Mobile</option>
+		<option value="Design">Design</option>
+	</select><br/><br/>
+
+
+	<label>Your message </label><br/><br/> <textarea name="textarea"></textarea><br/><br/>
+	<button type="submit">submit form</button>
+</form>
+
+</body>
+</html>
